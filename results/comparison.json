@@ -1,0 +1,26 @@
+{
+  "config": {
+    "layer_sizes": [
+      784,
+      128,
+      64,
+      10
+    ],
+    "activation": "relu",
+    "lr": 0.05,
+    "momentum": 0.9,
+    "batch_size": 128,
+    "epochs": 10,
+    "seed": 42
+  },
+  "numpy": {
+    "test_acc": 0.9751,
+    "train_time_s": 46.03
+  },
+  "framework": {
+    "test_acc": 0.9781,
+    "train_time_s": 26.39
+  },
+  "framework_name": "PyTorch",
+  "test_acc_gap": 0.003
+}
